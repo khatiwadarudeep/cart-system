@@ -1,0 +1,22 @@
+.home > * {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    margin: 20px;
+    columns: auto 5;
+    column-gap: 16px;
+  }
+}

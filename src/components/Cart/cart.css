@@ -1,0 +1,19 @@
+.total-section {
+  display: flex;
+  justify-content: space-between;
+}
+.checkout {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.checkout-button {
+  width: 100%;
+  background-color: #222f6e;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 800;
+  color: #fff;
+}

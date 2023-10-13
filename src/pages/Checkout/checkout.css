@@ -1,0 +1,12 @@
+.checkout {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  align-items: center;
+  font-size: 18px;
+}
+
+.back-button > button {
+  padding: 14px;
+  cursor: pointer;
+}

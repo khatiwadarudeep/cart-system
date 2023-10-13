@@ -1,0 +1,62 @@
+.main_container {
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.page_container {
+  flex: 1;
+}
+
+.body_content {
+  flex: 1;
+  position: relative;
+  display: flex;
+}
+
+.cart_container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -100%;
+  width: 300px;
+  transition: all 0.5s ease-in-out;
+  background-color: #fff;
+  padding: 20px;
+  border-left: 5px solid #222f6e;
+  display: flex;
+  height: max-content;
+}
+
+.cart_container.active {
+  right: 0;
+}
+
+.nav_bar_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222f6e;
+  padding: 20px;
+}
+
+h4 {
+  font-weight: 800;
+}
+
+.nav_bar_brand {
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.nav_bar_cart > button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+}
